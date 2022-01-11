@@ -1,5 +1,7 @@
 # User Portal API
 
+[![codecov](https://codecov.io/gh/webcat12345/user-portal-api/branch/master/graph/badge.svg?token=EYJYRJVGLN)](https://codecov.io/gh/webcat12345/user-portal-api)
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>

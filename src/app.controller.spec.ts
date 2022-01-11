@@ -15,8 +15,10 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+    it('should return server healthy status', () => {
+      expect(appController.getHealthy()).toBe(
+        'User Portal API server is running.',
+      );
     });
   });
 });

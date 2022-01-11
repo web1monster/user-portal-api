@@ -65,4 +65,14 @@ describe('AppController', () => {
       'repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque',
     );
   });
+
+  it('should return 404 not found error when user id does not exists', async () => {
+    try {
+      await appController.getUserByUserId(1777);
+    } catch (e) {
+      expect(e).toStrictEqual(
+        new NotFoundException('User does not exists for that userId - 1777'),
+      );
+    }
+  });
 });

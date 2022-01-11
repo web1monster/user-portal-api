@@ -21,7 +21,7 @@ export class SoftDelete {
 
   @ApiProperty()
   @PrimaryGeneratedColumn()
-  id: string;
+  id: number;
 
   @Exclude()
   @DeleteDateColumn()

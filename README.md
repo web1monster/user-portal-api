@@ -25,6 +25,7 @@ This project was created by [Nest](https://github.com/nestjs/nest) and deployed 
 * Github action will check code quality, such as lint, unit test for each git push actions
 * `master` branch is connected with the Heroku pipeline directly, when CI succeed, code will be automatically pushed to the server
 * There is an open api document, swagger - https://user-portal-api-v1.herokuapp.com/doc/
+* Code coverage doesn't include entities, dtos, consts, only applies to services, controllers and util functions.
 
 ## Running on local environment
 

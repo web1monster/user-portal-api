@@ -32,6 +32,10 @@ const config: ConnectionOptions = {
     // to be compiled into dist/ folder.
     migrationsDir: 'src/migrations',
   },
+
+  ssl: {
+    rejectUnauthorized: false,
+  },
 };
 
 export = config;

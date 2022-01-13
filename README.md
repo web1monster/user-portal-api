@@ -31,8 +31,9 @@ This project was created by [Nest](https://github.com/nestjs/nest) and deployed 
 
 ```bash
 $ npm install
-$ npm run start # Normal start or...
-$ npm run start:dev # Watch mode, means hot reloading for the code change
+$ npm run start
+# Run on watch mode
+$ npm run start:dev
 ```
 
 ## Running test manually
@@ -41,8 +42,8 @@ $ npm run start:dev # Watch mode, means hot reloading for the code change
 # unit tests
 $ npm run test
 
-# e2e tests
-$ npm run test:e2e
+# lint check
+$ npm run lint
 
 # test coverage
 $ npm run test:cov

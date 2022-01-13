@@ -10,6 +10,8 @@ async function bootstrap() {
 
   app.useGlobalPipes(new ValidationPipe());
 
+  app.enableCors();
+
   const seedService = app.get(SeedService);
 
   await seedService.startSeed();
